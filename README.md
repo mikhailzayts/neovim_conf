@@ -16,6 +16,7 @@ call plug#begin('~/AppData/Local/nvim/plugged')
 " add the plugin you want to use here.
 call plug#end()
 ```
+5) Type `:PlugStatus` in nvim for checking vim-plug
 
 ## Setting up LSP:
 1) Add `Plug 'neovim/nvim-lspconfig'` to the init.vim plugins list
