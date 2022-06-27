@@ -1,5 +1,5 @@
-# Setting up Neovim on Windows
-Setting up Neovim guide for Embedded C development on Windows 10
+# Set up Neovim on Windows
+Neovim set up guide for embedded C development on Windows 10.
 
 ## Basic installation
 1) Install Neovim `winget install Neovim.Neovim`
