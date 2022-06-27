@@ -1,4 +1,4 @@
-# Set up Neovim on Windows
+# Neovim for C
 Neovim set up guide for embedded C development on Windows 10.
 
 ## Basic installation
