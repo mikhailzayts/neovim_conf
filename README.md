@@ -41,4 +41,4 @@ List with some Neovim themes which I like
 
 ### JSON compilation database generation
 clangd relies on compile_commands.json JSON compilation database. 
-It can be exported with CMake with flag `-DCMAKE_EXPORT_COMPILE_COMMANDS` or can be created with [Bear](https://github.com/rizsotto/Bear) utility.
+It can be exported on the CMake generation process with `-DCMAKE_EXPORT_COMPILE_COMMANDS=1` flag or can be created with [Bear](https://github.com/rizsotto/Bear) utility (only Linux and macOS).
