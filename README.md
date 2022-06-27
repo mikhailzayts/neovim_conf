@@ -1,7 +1,8 @@
-# Neovim for C
+# Neovim for C developer
 Neovim set up guide for embedded C development on Windows 10.
 
-## Basic installation
+## Setting up
+### Basic installation
 1) Install Neovim `winget install Neovim.Neovim`
 2) Install vim-plug plugin manager
 ```
@@ -19,23 +20,25 @@ call plug#end()
 ```
 5) Type `:PlugStatus` in nvim for checking vim-plug
 
-## Setup LSP (Language Server Processor):
+### Setup LSP (Language Server Processor):
 1) Add `Plug 'neovim/nvim-lspconfig'` to the init.vim plugins list
 2) Type `:PlugInstall` in nvim for install the plugin
 3) Install clangd LSP server `scoop install clangd`
 4) Copy configuration from [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) in the init.vim
 5) Set up clangd support with `require'lspconfig'.clangd.setup{}` 
 
-## Set up Treesitter (improved syntax highlight)
+### Set up Treesitter (improved syntax highlight)
 1) Add `Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}` to the init.vim plugins list
 2) Type `:PlugInstall` in nvim for install the plugin
 3) Type `:TSInstall c` in nvim for install C language support
 4) Add configuration from [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) in the init.vim
 
-## Color theme
+### Color theme
 List with some Neovim themes which I like
 - [Tokyo Night theme](https://github.com/folke/tokyonight.nvim)
 - [GitHub theme](https://github.com/projekt0n/github-nvim-theme)
+
+### Other plugins
 
 ## Usage
 
