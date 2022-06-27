@@ -40,6 +40,10 @@ List with some Neovim themes which I like
 
 ### Other plugins
 
+1) [lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim)
+2) [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+3) [completion-nvim](https://github.com/nvim-lua/completion-nvim)
+
 ## Usage
 
 ### JSON compilation database generation
