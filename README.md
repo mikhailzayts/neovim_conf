@@ -36,3 +36,9 @@ call plug#end()
 List with some Neovim themes which I like
 - [Tokyo Night theme](https://github.com/folke/tokyonight.nvim)
 - [GitHub theme](https://github.com/projekt0n/github-nvim-theme)
+
+## Usage
+
+### JSON compilation database generation
+clangd relies on compile_commands.json JSON compilation database. 
+It can be exported with CMake with flag `-DCMAKE_EXPORT_COMPILE_COMMANDS` or can be created with [Bear](https://github.com/rizsotto/Bear) utility.
