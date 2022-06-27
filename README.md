@@ -43,6 +43,7 @@ List with some Neovim themes which I like
 1) [lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim)
 2) [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 3) [completion-nvim](https://github.com/nvim-lua/completion-nvim)
+4) [clangd_extensions.nvim](https://github.com/p00f/clangd_extensions.nvim)
 
 ## Usage
 
