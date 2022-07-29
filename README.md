@@ -3,8 +3,8 @@ Neovim set up guide for embedded C development
 
 ## Setting up
 ### Basic installation
-1) Install Neovim `winget install Neovim.Neovim`
-2) Install vim-plug plugin manager
+1) Install [Neovim](https://github.com/neovim/neovim) `winget install Neovim.Neovim`
+2) Install [vim-plug](https://github.com/junegunn/vim-plug) plugin manager
 ```
 iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |
 ni "$(@($env:XDG_DATA_HOME, $env:LOCALAPPDATA)[$null -eq $env:XDG_DATA_HOME])/  nvim-data/site/autoload/plug.vim" -Force
