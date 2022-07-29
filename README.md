@@ -43,8 +43,9 @@ List with some Neovim themes which I like
 1) [lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim)
 2) [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 3) [telescope-fzf-native.nvim](https://github.com/nvim-telescope/telescope-fzf-native.nvim)
-4) [completion-nvim](https://github.com/nvim-lua/completion-nvim)
-5) [clangd_extensions.nvim](https://github.com/p00f/clangd_extensions.nvim)
+- [ripgrep](https://github.com/BurntSushi/ripgrep) is necessary
+5) [completion-nvim](https://github.com/nvim-lua/completion-nvim)
+6) [clangd_extensions.nvim](https://github.com/p00f/clangd_extensions.nvim)
 
 ## Usage
 
