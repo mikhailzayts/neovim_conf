@@ -1,5 +1,5 @@
 # Neovim for C developer
-Neovim set up guide for embedded C development on Windows 10.
+Neovim set up guide for embedded C development
 
 ## Setting up
 ### Basic installation
